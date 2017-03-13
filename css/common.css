@@ -1,0 +1,133 @@
+@charset "utf-8";
+body{
+	padding:0;
+	margin:0;
+	background-image:url(../images/bg-body.jpg);
+	color:#333;
+}
+ul,li{
+	padding:0;
+	margin:0;
+}
+.clearfix:after{
+	content:".";
+	display:block;
+	height:0;
+	visibility:hidden;
+	clear:both;
+}
+header,nav{
+	width:1200px;
+	margin:0 auto;
+	position:relative;
+	
+}
+#container{
+	width:1200px;
+	margin:10px auto;
+}
+header .t-logo {
+    margin: 13px 18px 0 0;
+}
+header .t-logo, header .tit {
+    float: left;
+}
+header .tit-img {
+    line-height: 78px;
+    padding-left: 8px;
+}
+img {
+    border: 0 none;
+    vertical-align: middle;
+}
+header .r-box {
+    color: #a40000;
+    font-family: 微软雅黑;
+    font-size: 16px;
+    line-height: 68px;
+    position: absolute;
+    right: 0;
+    top: 18px;
+}
+#nav-wrapper{
+	background-color:#a40000;
+}
+nav ul{
+	list-style-type:none;
+}
+nav li{
+	float:left;
+}
+nav li a:link,nav li a:visited {
+    color: #FFF;
+    display: block;
+    line-height: 52px;
+    padding: 0 10px;
+	text-decoration:none;
+}
+nav li a:hover{
+	background-color:#7D0000;
+}
+#main{
+	width:800px;
+	padding:30px;
+	background-color:#FBFBFB;
+	float:left;
+}
+
+#main h1{
+	font-size:26px;
+	font-family:"微软雅黑";
+	text-align:center;
+}
+#main p{
+	text-indent:2em;
+	font-size:16px;
+	line-height:2;
+}
+#side{
+	width:305px;
+	float:right;
+	background-color:#FBFBFB;
+}
+#side h3{
+	background-color:#a40000;
+    color: #FFF;
+    font-family: 微软雅黑;
+    font-size: 22px;
+    line-height: 22px;
+    padding: 15px 10px;
+	margin:0;
+}
+#side ul{
+	list-style-type:none;
+}
+#side li{
+	border-bottom: 1px solid #e7e7e7;
+	
+}
+
+#side li a:link,#side li a:visited{
+	color:#333;
+	display:block;
+	text-decoration:none;
+	line-height:44px;
+	padding-left:42px;
+	background: url("../images/bg-icon24.png") no-repeat -172px -513px;
+}
+#side li a:hover{
+	background-position: -172px -460px;
+    color: #a40000;
+}
+#side li a.currentpage{
+	background-position: -172px -460px;
+    color: #a40000;
+}
+footer {
+    background-color:#666;
+    color: #FFF;
+	text-align:center;
+	font-size:14px;
+	padding:10px;
+ 
+}
